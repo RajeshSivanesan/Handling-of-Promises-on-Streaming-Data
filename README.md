@@ -7,5 +7,13 @@ There are two ways we can solve this problem
    
 2) This approach is like, we will have access to the length of the data going to be streamed, use a simple counter and compare
    at each moment and when its the last invoke the final callback
+
+To elaborate the differences, have added both approaches in the same file
+
+To run, run server using node server.js
+
+And then run node index.js
    
 This can be extended for Async await too.
+
+Note: For sample, have used a csv of 10 rows with 6 columns of data
